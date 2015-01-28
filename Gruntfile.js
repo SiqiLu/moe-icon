@@ -10,6 +10,7 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        bower: grunt.file.readJSON('bower.json'),
 
         // Task configuration.
         clean: {
@@ -101,7 +102,7 @@ module.exports = function(grunt) {
         bump: {
             options: {
                 files: ['package.json, bower.json'],
-                updateConfigs: [],
+                updateConfigs: ['pkg', 'bower'],
                 commit: true,
                 commitMessage: 'Release %VERSION%',
                 commitFiles: ['-a'],
