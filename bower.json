@@ -1,0 +1,23 @@
+{
+  "name": "moe-icon",
+  "version": "0.1.0",
+  "authors": [
+    "Siqi Lu <lu.siqi@outlook.com>"
+  ],
+  "description": "moe icon",
+  "main": "index.html",
+  "keywords": [
+    "moe",
+    "icon"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SiqiLu/moe-icon",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
