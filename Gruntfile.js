@@ -106,7 +106,7 @@ module.exports = function(grunt) {
                 createTag: true,
                 tagName: '%VERSION%',
                 tagMessage: 'Version %VERSION%',
-                push: false,
+                push: true,
                 pushTo: 'origin master',
                 gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d',
                 globalReplace: false
@@ -120,7 +120,7 @@ module.exports = function(grunt) {
     grunt.registerTask('js', ['jshint', 'jscs', 'uglify']);
     grunt.registerTask('css', ['csslint', 'csscomb', 'cssmin']);
     grunt.registerTask('build', ['clean:dist', 'copy']);
-
+    grunt.registerTask('release', ['bump']);
     // These plugins provide necessary tasks.
     require('load-grunt-tasks')(grunt, {
         scope: 'devDependencies'
