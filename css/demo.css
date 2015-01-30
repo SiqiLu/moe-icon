@@ -53,7 +53,6 @@ input:focus {
   font-size: 16px;
 }
 .liga {
-  width: 80%;
   width: calc(100% - 2.5em);
 }
 .talign-right {
