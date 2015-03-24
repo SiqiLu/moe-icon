@@ -148,11 +148,8 @@ node_modules/
 #bower_components
 bower_components/
 
-#metronic
-!metronic/
-
-#angulr
-!angulr/
+# moe-bower
+moe_packages/
 
 # =========================
 # Windows detritus
@@ -209,3 +206,9 @@ Thumbs.db
 # grunt-html-validation
 validation-report.json
 validation-status.json
+
+# tmp directory
+tmp/
+
+# console_dev
+console_dev.js

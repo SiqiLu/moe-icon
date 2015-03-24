@@ -20,6 +20,7 @@
   "requireLineFeedAtFileEnd": true,
   "requireSpaceAfterBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
   "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+  "requireSpaceAfterLineComment": true,
   "requireSpaceBeforeBinaryOperators": ["+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", "<", ">=", "<="],
   "requireSpaceBetweenArguments": true,
   "requireSpacesInAnonymousFunctionExpression": { "beforeOpeningCurlyBrace": true },
@@ -29,6 +30,6 @@
   "requireSpacesInFunctionExpression": { "beforeOpeningCurlyBrace": true },
   "requireSpacesInNamedFunctionExpression": { "beforeOpeningCurlyBrace": true },
   "requireSpacesInsideObjectBrackets": "allButNested",
-  "validateIndentation": 4,
+  "validateIndentation": 2,
   "validateQuoteMarks": "'"
 }

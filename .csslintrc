@@ -5,7 +5,6 @@
   "compatible-vendor-prefixes": false,
   "floats": false,
   "font-sizes": false,
-  "font-faces": false,
   "gradients": false,
   "important": false,
   "known-properties": false,
@@ -16,5 +15,8 @@
   "text-indent": false,
   "unique-headings": false,
   "universal-selector": false,
-  "unqualified-attributes": false
+  "unqualified-attributes": false,
+
+  "fallback-colors": false,
+  "font-faces": false
 }
